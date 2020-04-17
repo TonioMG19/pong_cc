@@ -1,0 +1,12 @@
+padx = 53
+pady = 122
+padw = 24
+padh = 4
+
+function movepaddle()
+	if btn(0) then
+		padx -=3
+	elseif btn(1) then
+		padx += 3
+	end
+end
